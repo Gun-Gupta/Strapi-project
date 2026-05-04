@@ -36,7 +36,7 @@ export default async function Home() {
 
   return (
     <main className="min-h-screen bg-gray-100 p-10">
-      <h1 className="text-3xl font-bold text-center mb-10">📰 Articles</h1>
+      <h1 className="text-3xl font-bold text-center mb-10">📰 Articles (Live)</h1>
 
       {(!articles.data || articles.data.length === 0) && (
         <p className="text-center text-gray-500">No articles found</p>
